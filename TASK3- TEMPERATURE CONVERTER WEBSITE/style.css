@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    color: beige;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    margin: 50px auto;
+    max-width: 800px;
+    /* background-color: #3e8e41; */
+  }
+  
+  h1 {
+    color: #fd4040;
+    margin-top: 0;
+  }
+  
+  .converter {
+   /* background-color: #3e8e41; */
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-group, .output-group {
+    padding: 10px 105px;
+    display: flex;
+    align-items: center;
+    background-color: #39d4d1;
+    border-radius: 5px;
+    
+  }
+  .input-group label{
+    border-radius: 5px;
+    background-color: #02093d;
+    padding: 5px;
+    color: #fffcfc;
+  }
+  .output-group label{
+    border-radius: 5px;
+    background-color: #02093d;
+    padding: 5px;
+    color: #fffcfc;
+  }
+  
+  .input-group label, .output-group label, select, input {
+    margin: 10px;
+    
+  }
+  .temp{
+    margin-left: 45px;
+  }
+  
+  input {
+    
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 5px;
+    color: #170201;
+    background-color: #d3d1d1;
+    width: 160px;
+  }
+  
+  select {
+    width: 100px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 5px;
+    color: #170201;
+    background-color: #ccc;
+    width: 160px;
+  }
+  #convert-btn{
+    margin-top: 30px;
+    padding: 10px 70px;
+  }
+  
+  button {
+    /* margin-top: 10px; */
+    background-color: #3e8e41;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #13be19;
+  }
+  
+  .history {
+    margin: 50px auto;
+  }
+  
+  .history h2 {
+    color: #fd4040;
+    margin-top: 0;
+  }
+  
+  #history-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .history-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .history-item span {
+    margin-right: 10px;
+  }
+  
+  #clear-history-btn {
+    background-color: #f44336;
+  }
+  
